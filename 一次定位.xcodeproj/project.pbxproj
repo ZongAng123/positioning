@@ -15,6 +15,7 @@
 		743EAAA51E1D1A200057B8E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 743EAAA31E1D1A200057B8E5 /* LaunchScreen.storyboard */; };
 		743EAAB01E1D1A200057B8E5 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 743EAAAF1E1D1A200057B8E5 /* ____Tests.m */; };
 		743EAABB1E1D1A200057B8E5 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 743EAABA1E1D1A200057B8E5 /* ____UITests.m */; };
+		743EAAC91E1D1A850057B8E5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 743EAAC81E1D1A850057B8E5 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		743EAAB61E1D1A200057B8E5 /* 一次定位UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "一次定位UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		743EAABA1E1D1A200057B8E5 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		743EAABC1E1D1A200057B8E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		743EAAC81E1D1A850057B8E5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				743EAAC91E1D1A850057B8E5 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 		743EAA891E1D1A200057B8E5 = {
 			isa = PBXGroup;
 			children = (
+				743EAAC81E1D1A850057B8E5 /* CoreLocation.framework */,
 				743EAA941E1D1A200057B8E5 /* 一次定位 */,
 				743EAAAE1E1D1A200057B8E5 /* 一次定位Tests */,
 				743EAAB91E1D1A200057B8E5 /* 一次定位UITests */,
